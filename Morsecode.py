@@ -89,9 +89,9 @@ submit.grid(row=1, column=2)
 Exit = Button(window, text='Exit', font=myFont, command=close, bg='red', height=1, width=6)
 Exit.grid(row=2, column=1)
 
-window.protocol("WM_DELETE_WINDOW", close) # cleanup GPIO when user closes window
+window.protocol("WM_DELETE_WINDOW", close) 
 
-window.mainloop() # Loops forev
+window.mainloop() 
 
 
  
